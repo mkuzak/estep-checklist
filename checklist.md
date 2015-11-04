@@ -1,0 +1,19 @@
+Checklist for 'eStep friendly' projects.
+- version control from the beginning of the project
+- public vcs repository (github)
+- project discussion list (github issues or gitter not private email) for all project related discussions from the beginning of the project
+- Apache 2 license
+- compatible license of all libraries
+- tagged releases
+- editorconfig
+- source code documentation
+- usage documentation
+- development setup documentation
+- unit tests
+- regression tests
+- build tests
+- automated builds
+- well defined functionality
+- one command install (pip, npm etc)
+- package in package manager (pypi, npm etc)
+- demo docker image in dockerhub

@@ -16,4 +16,5 @@ Checklist for 'eStep friendly' projects.
 - well defined functionality
 - one command install (pip, npm etc)
 - package in package manager (pypi, npm etc)
-- demo docker image in dockerhub
+- demo docker image in dockerhub (with Dockerfile)
+- dev environment docker images in Dockerhub (with Dockerfile)

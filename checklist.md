@@ -1,10 +1,13 @@
 Checklist for 'eStep friendly' projects.
 - version control from the beginning of the project
+- use git as vcs
+- use [git flow branching model](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 - public vcs repository (github)
 - project discussion list (github issues or gitter not private email) for all project related discussions from the beginning of the project
 - Apache 2 license
 - compatible license of all libraries
 - tagged releases
+- [semantic versioning](http://semver.org/)
 - editorconfig
 - source code documentation
 - usage documentation
@@ -18,4 +21,4 @@ Checklist for 'eStep friendly' projects.
 - package in package manager (pypi, npm etc)
 - demo docker image in dockerhub (with Dockerfile)
 - dev environment docker images in Dockerhub (with Dockerfile)
-- instructions on how to get started with development (eg. [Getting started with khmer development](http://khmer.readthedocs.org/en/latest/dev/getting-started.html))
+- instructions on how to get started with development (good example is [Getting started with khmer development](http://khmer.readthedocs.org/en/latest/dev/getting-started.html))

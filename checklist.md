@@ -18,3 +18,4 @@ Checklist for 'eStep friendly' projects.
 - package in package manager (pypi, npm etc)
 - demo docker image in dockerhub (with Dockerfile)
 - dev environment docker images in Dockerhub (with Dockerfile)
+- instructions on how to get started with development (eg. [Getting started with khmer development](http://khmer.readthedocs.org/en/latest/dev/getting-started.html))

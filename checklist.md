@@ -4,7 +4,7 @@ Checklist for 'eStep friendly' projects.
 
 - version control from the beginning of the project
 - use git as vcs
-- use [git flow branching model](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+- use [githum flow branching model](https://guides.github.com/introduction/flow/)
 - public vcs repository (github)
 
 ## Release
@@ -31,8 +31,9 @@ Checklist for 'eStep friendly' projects.
 - unit tests
 - regression tests
 - build tests
-- continuous integration
-- continuous code coverage and code quality metrics
+- continuous integration, public on Travis
+- continuous code coverage and code quality metrics public
+- end2end test for (web) user interfaces
 
 ## Documentation
 
@@ -41,8 +42,14 @@ Checklist for 'eStep friendly' projects.
 - usage documentation
 - development setup documentation
 - instructions on how to get started with development (good example is [Getting started with khmer development](http://khmer.readthedocs.org/en/latest/dev/getting-started.html))
+- documented code style
 
 ## Development setup
 
 - editorconfig
+- applied code style in automated way if possible (i.e using linters and code formaters)
 - dev environment docker images in Dockerhub (with Dockerfile)
+
+## Use standards
+- exchange format (Unicode, W3C, OGN, NetCDF, etc)
+- protocols (HTTP, TCP, TLS, etc)

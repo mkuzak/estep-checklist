@@ -32,6 +32,7 @@ Checklist for 'eStep friendly' projects.
 - regression tests
 - build tests
 - continuous integration
+- continuous code coverage and code quality metrics
 
 ## Documentation
 

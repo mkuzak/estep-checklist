@@ -6,6 +6,7 @@ Checklist for 'eStep friendly' projects.
 - use git as vcs
 - use [github flow branching model](https://guides.github.com/introduction/flow/)
 - public vcs repository (github)
+- meaningful commit messages
 
 ## Release
 
@@ -45,6 +46,7 @@ Checklist for 'eStep friendly' projects.
 - source code documentation
 - usage documentation
 - documented development setup (good example is [Getting started with khmer development](http://khmer.readthedocs.org/en/latest/dev/getting-started.html))
+- contribution guidelines
 - documented code style
 
 ## Development setup

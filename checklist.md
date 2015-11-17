@@ -44,8 +44,7 @@ Checklist for 'eStep friendly' projects.
 - well defined functionality
 - source code documentation
 - usage documentation
-- development setup documentation
-- instructions on how to get started with development (good example is [Getting started with khmer development](http://khmer.readthedocs.org/en/latest/dev/getting-started.html))
+- documented development setup (good example is [Getting started with khmer development](http://khmer.readthedocs.org/en/latest/dev/getting-started.html))
 - documented code style
 
 ## Development setup

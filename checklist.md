@@ -41,7 +41,7 @@ Checklist for 'eStep friendly' projects.
 - end2end test for (web) user interfaces
 
 ## Documentation
-
+- `README.md` - clear explanation of the goal of the project with pointers to other documentation resources
 - well defined functionality
 - source code documentation
 - usage documentation

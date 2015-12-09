@@ -49,6 +49,7 @@ Checklist for 'eStep friendly' projects.
 - contribution guidelines
 - documented code style
 - meaning of issue labels used
+- DOI
 
 ## Development setup
 

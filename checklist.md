@@ -48,6 +48,7 @@ Checklist for 'eStep friendly' projects.
 - documented development setup (good example is [Getting started with khmer development](http://khmer.readthedocs.org/en/latest/dev/getting-started.html))
 - contribution guidelines
 - documented code style
+- meaning of issue labels used
 
 ## Development setup
 

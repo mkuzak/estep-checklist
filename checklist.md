@@ -47,6 +47,7 @@ Checklist for 'eStep friendly' projects.
 - usage documentation
 - documented development setup (good example is [Getting started with khmer development](http://khmer.readthedocs.org/en/latest/dev/getting-started.html))
 - contribution guidelines
+- code of conduct ([contributor covenant](http://contributor-covenant.org/))
 - documented code style
 - meaning of issue labels used
 - DOI

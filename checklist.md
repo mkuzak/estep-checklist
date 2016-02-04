@@ -22,7 +22,7 @@ Checklist for 'eStep friendly' projects.
 
 - Apache 2 license
 - compatible license of all libraries
-- NOTICE(.txt|.md) listing licenses, request citation of paper if applicable
+- `NOTICE(.txt|.md)` listing licenses, request citation of paper if applicable
 
 ## Communication
 
@@ -41,7 +41,7 @@ Checklist for 'eStep friendly' projects.
 - end2end test for (web) user interfaces
 
 ## Documentation
-- `README.md` - clear explanation of the goal of the project with pointers to other documentation resources
+- `README.md` - clear explanation of the goal of the project with pointers to other documentation resources. Use [GitHub flavored markdown](https://help.github.com/categories/writing-on-github) for, e.g., [syntax highlighting](https://help.github.com/articles/creating-and-highlighting-code-blocks).
 - well defined functionality
 - source code documentation
 - usage documentation
@@ -60,5 +60,6 @@ Checklist for 'eStep friendly' projects.
 - dev environment docker images in Dockerhub (with Dockerfile)
 
 ## Use standards
+
 - exchange format (Unicode, W3C, OGN, NetCDF, etc)
 - protocols (HTTP, TCP, TLS, etc)

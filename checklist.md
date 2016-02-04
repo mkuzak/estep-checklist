@@ -29,7 +29,7 @@ Checklist for 'eStep friendly' projects.
 - project discussion list (github issues or gitter not private email) for all project related discussions from the beginning of the project
 - for services: a demo docker image in dockerhub (with Dockerfile)
 - for websites: an online demo
-- Pitch presentation (max 1 to max 3 slides)
+- Pitch presentation (1 to 3 slides)
 
 ## Testing
 

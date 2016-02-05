@@ -34,7 +34,6 @@ Checklist for 'eStep friendly' projects.
 ## Testing
 
 - [unit tests](https://en.wikipedia.org/wiki/Unit_testing)
-- regression tests
 - build tests
 - [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration), public on [Travis](https://travis-ci.org/)
 - continuous code coverage and code quality metrics public, minimum 70% coverage required

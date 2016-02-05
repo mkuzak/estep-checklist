@@ -3,40 +3,40 @@ Checklist for 'eStep friendly' projects.
 ## Version control
 
 - version control from the beginning of the project
-- use git as vcs
+- use git as version control system (vcs)
 - use [github flow branching model](https://guides.github.com/introduction/flow/)
-- public vcs repository (github)
+- public vcs repository ([github](https://github.com/))
 - meaningful commit messages
 
 ## Release
 
 - [semantic versioning](http://semver.org/)
 - tagged releases
-- one command install (pip, npm etc)
-- package in package manager (pypi, npm etc)
-- discuss with coordinator
+- one command install ([pip](https://pypi.python.org/pypi/pip), [npm](https://www.npmjs.com/package/npm) etc)
+- package in package manager ([pypi](https://pypi.python.org/pypi), [npm](https://www.npmjs.com/) etc)
+- discuss release cycle with coordinator
 - release quick-scan by other engineer (is documentation understandable, can it be installed, etc)
 - notify Lode for dissemination (news item on site / annual report, etc)
 
 ## Licensing
 
-- Apache 2 license
+- [Apache 2 license](http://www.apache.org/licenses/LICENSE-2.0)
 - compatible license of all libraries
 - `NOTICE(.txt|.md)` listing licenses, request citation of paper if applicable
 
 ## Communication
 
-- project discussion list (github issues or gitter not private email) for all project related discussions from the beginning of the project
+- project discussion list (github issues, mailing list, not private email) for all project related discussions from the beginning of the project
 - for services: a demo docker image in dockerhub (with Dockerfile)
 - for websites: an online demo
 - Pitch presentation (1 to 3 slides)
 
 ## Testing
 
-- unit tests
+- [unit tests](https://en.wikipedia.org/wiki/Unit_testing)
 - regression tests
 - build tests
-- continuous integration, public on Travis
+- [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration), public on [Travis](https://travis-ci.org/)
 - continuous code coverage and code quality metrics public, minimum 70% coverage required
 - end2end test for (web) user interfaces
 
@@ -46,16 +46,16 @@ Checklist for 'eStep friendly' projects.
 - source code documentation
 - usage documentation
 - documented development setup (good example is [Getting started with khmer development](http://khmer.readthedocs.org/en/latest/dev/getting-started.html))
-- contribution guidelines
+- contribution guidelines [egzample](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md)
 - code of conduct ([contributor covenant](http://contributor-covenant.org/))
 - documented code style
 - meaning of issue labels used
-- DOI
+- DOI or PID ([making your code citable](https://guides.github.com/activities/citable-code/))
 
 ## Development setup
 
 - using the NLeSC coding style is required
-- editorconfig
+- (editorconfig)[http://editorconfig.org/]
 - applied code style in automated way if possible (i.e using linters and code formaters)
 - dev environment docker images in Dockerhub (with Dockerfile)
 

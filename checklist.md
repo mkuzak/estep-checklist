@@ -30,6 +30,7 @@ Checklist for 'eStep friendly' projects.
 - for services: a demo docker image in dockerhub (with Dockerfile)
 - for websites: an online demo
 - Pitch presentation (1 to 3 slides)
+- Few sentences about the project for [nlesc technology pages](https://www.esciencecenter.nl/technology)
 
 ## Testing
 

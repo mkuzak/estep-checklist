@@ -39,6 +39,8 @@ Checklist for 'eStep friendly' projects.
 - [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration), public on [Travis](https://travis-ci.org/)
 - continuous code coverage and code quality metrics public, minimum 70% coverage required
 - end2end test for (web) user interfaces
+- track dependencies (with [VersionEye](https://www.versioneye.com/),
+  [David](https://david-dm.org/) or other service depending on codebase language)
 
 ## Documentation
 - `README.md` - clear explanation of the goal of the project with pointers to other documentation resources. Use [GitHub flavored markdown](https://help.github.com/categories/writing-on-github) for, e.g., [syntax highlighting](https://help.github.com/articles/creating-and-highlighting-code-blocks).

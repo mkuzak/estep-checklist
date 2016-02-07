@@ -27,7 +27,10 @@ Checklist for 'eStep friendly' projects.
 
 ## Communication
 
-- project discussion list (github issues, mailing list, not private email) for all project related discussions from the beginning of the project
+- home page with all the necessary introduction information, links to documenation, source code (github)
+  and latest release download (eg. [github.io pages](https://pages.github.com/))
+- project discussion list (github issues, mailing list, not private email) for all project related
+  discussions from the beginning of the project
 - for services: a demo docker image in dockerhub (with Dockerfile)
 - for websites: an online demo
 - Pitch presentation (1 to 3 slides)

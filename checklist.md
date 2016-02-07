@@ -11,7 +11,7 @@ Checklist for 'eStep friendly' projects.
 ## Release
 
 - [semantic versioning](http://semver.org/)
-- tagged releases
+- tagged releases ([github releases](https://help.github.com/categories/releases/))
 - CHANGELOG.md ([Keep a CHANGELOG](http://keepachangelog.com/))
 - one command install ([pip](https://pypi.python.org/pypi/pip), [npm](https://www.npmjs.com/package/npm) etc)
 - package in package manager ([pypi](https://pypi.python.org/pypi), [npm](https://www.npmjs.com/) etc)

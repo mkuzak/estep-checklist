@@ -61,7 +61,7 @@ Checklist for 'eStep friendly' projects.
 ## Development setup
 
 - using the NLeSC coding style is required
-- (editorconfig)[http://editorconfig.org/]
+- [editorconfig](http://editorconfig.org/)
 - applied code style in automated way if possible (i.e using linters and code formaters)
 - dev environment docker images in Dockerhub (with Dockerfile)
 

@@ -4,7 +4,7 @@ Checklist for 'eStep friendly' projects.
 
 - version control from the beginning of the project
 - use git as version control system (vcs)
-- use [github flow branching model](https://guides.github.com/introduction/flow/)
+- use [GitHub flow branching model](https://guides.github.com/introduction/flow/) (TL;DR: use feature branches and pull requests)
 - public vcs repository ([github](https://github.com/))
 - meaningful commit messages
 

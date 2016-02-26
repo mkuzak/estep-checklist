@@ -14,7 +14,8 @@ Checklist for 'eStep friendly' projects.
 > of contributions.
 
 - public vcs repository ([github](https://github.com/))
-> Unless code cannot be open (usually commercial partners, or some competitiveness issues ) it should be in public online repository. > In case the code uses data, that cannot be open, an engineer should try to keep sensitive parts outside of the main codebase.
+> Unless code cannot be open (usually commercial partners, or some competitiveness issues ) it should be in public online repository.
+> In case the code uses data, that cannot be open, an engineer should try to keep sensitive parts outside of the main codebase.
 
 - meaningful commit messages
 > Commit messages are the way for other developers to understand changes in the codebase. In case of using GitHub flow model commit 

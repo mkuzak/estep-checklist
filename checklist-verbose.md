@@ -1,5 +1,3 @@
-Checklist for 'eStep friendly' projects.
-
 ## Version control
 
 - version control from the beginning of the project

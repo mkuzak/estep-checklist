@@ -104,6 +104,7 @@ Checklist for 'eStep friendly' projects.
 > Once the project leaves early prototyping / throwaway phase, unit tests should be implemented.
 
 - [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI), public on [Travis](https://travis-ci.org/)
+> CI meaning: compile, unit test, integration test, quality analysis etc.
 > Once there is some build process established and tests set up, CI should be configured too. It will save you a lot of time debugging
 > and allow for much quicker problem diagnosis.
 

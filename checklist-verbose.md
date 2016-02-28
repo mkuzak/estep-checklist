@@ -2,20 +2,20 @@
 
 - version control from the beginning of the project
 - use git as version control system (vcs)
-> Other VCS can be used if the project does not start in NLeSC and does not use git or when the preveling VCS in particular community
+> Other VCS can be used if the project does not start in NLeSC and does not use git or when the prevailing VCS in particular community
 > is not git. Even then changing VCS should be considered (especially if svn or other centralised system is used).
 
-- choose one branchig model, make the choice explicit in contribution guidelines, link to documentation on how to get started with it
+- choose one branching model, make the choice explicit in contribution guidelines, link to documentation on how to get started with it
 > NLeSC default choice is [GitHub flow branching model](https://guides.github.com/introduction/flow/)
 > (TL;DR: use feature branches and pull requests).
 > GitHub flow is very simple and sane branching model. It supports collaboration and is based on pull requests, therefore relies
-> havily on GitHub. [Pro Git](https://git-scm.com/doc) book describes in detail the workflow of collaboration on the project
+> heavily on GitHub. [Pro Git](https://git-scm.com/doc) book describes in detail the workflow of collaboration on the project
 > with use of git branches,
 > forks and github in [Contributing to a Project chapter](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project).
 > Other more complicated models could be used if necessary, but we should strive for simplicity and uniformity
 > in NLeSc since that will enhance collaboration between the engineers. Learning new branching model should not stand in the way
 > of contributions. 
-> You can learn more obout those other models from [atlasian page](https://www.atlassian.com/git/tutorials/comparing-workflows).
+> You can learn more about those other models from [atlasian page](https://www.atlassian.com/git/tutorials/comparing-workflows).
 
 - public vcs repository ([github](https://github.com/))
 > Unless code cannot be open (usually commercial partners, or some competitiveness issues ) it should be in public online repository.
@@ -39,7 +39,7 @@
 > Read more about releases here:[]()
 
 - CHANGELOG.md ([Keep a CHANGELOG](http://keepachangelog.com/))
-> Change log if a way to communicate notable changes in release. Every release shoould have relevant entry in change log.
+> Change log if a way to communicate notable changes in release. Every release should have relevant entry in change log.
 
 - one command install ([pip](https://pypi.python.org/pypi/pip), [npm](https://www.npmjs.com/package/npm) etc)
 > This applies to software which is distributed as independent package or library that will be used by other software. Should be
@@ -77,8 +77,8 @@
 
 ## Communication
 
-- home page with all the necessary introduction information, links to documenation, source code (github) and latest release
-  download (eg. [github.io pages](https://pages.github.com/))
+- home page with all the necessary introduction information, links to documentation, source code (github) and latest release
+  download (e.g. [github.io pages](https://pages.github.com/))
 > Home page should be created together with first release, the latest. It is contact point to the outside word (or other internal
 > developer) it should be targeted towards non-programming users (unless software is meant for programers i.e library) but should have
 > pointers for developers to more advanced resources
@@ -115,7 +115,7 @@
 
 - continuous code coverage and code quality metrics public, minimum 70% coverage required
 
-- end2end test for (web) user interfaces. [example with protrctor and angular](https://angular.github.io/protractor/#/)
+- end2end test for (web) user interfaces. [example with protractor and angular](https://angular.github.io/protractor/#/)
 > Once there are possible interactions via web interface, e2e tests should be implemented.
 
 - track dependencies (with [VersionEye](https://www.versioneye.com/),
@@ -125,15 +125,15 @@
 
 ## Documentation
 - `README.md` - clear explanation of the goal of the project with pointers to other documentation resources.
-> Use [GitHub flavored markdown](https://help.github.com/categories/writing-on-github) for, e.g.,
+> Use [GitHub flavoured markdown](https://help.github.com/categories/writing-on-github) for, e.g.,
 > [syntax highlighting](https://help.github.com/articles/creating-and-highlighting-code-blocks).
-> Keeping basic documentation in README.md can be even usefull for lead developer, to track steps and design decisions.
+> Keeping basic documentation in README.md can be even useful for lead developer, to track steps and design decisions.
 > Therefore it should be present from the beginning of the project, when initialising git repository.
-> [StackOverflow on good redme](http://stackoverflow.com/questions/2304863/how-to-write-a-good-readme),
+> [StackOverflow on good readme](http://stackoverflow.com/questions/2304863/how-to-write-a-good-readme),
 > [short gist with README.md template](https://gist.github.com/jxson/1784669)
 
 - well defined functionality
-> Idealy in README.md
+> Ideally in README.md
 
 - source code documentation
 
@@ -144,7 +144,7 @@
 > [Getting started with khmer development](http://khmer.readthedocs.org/en/latest/dev/getting-started.html))
 > It should be made available once there is more than one developer working on the codebase.
 
-- contribution guidelines [egzample](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md)
+- contribution guidelines [example](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md)
 > Guidelines should be made available once the code is available online and there is a process for external contributions. External
 > contributions not necessary mean ‘out of NLeSC’ it could be other engineer in NLeSC. good guidelines will save time of both lead
 > developer and contributor since things have to be explained only once.
@@ -170,9 +170,9 @@
 
 - [editorconfig](http://editorconfig.org/)
 > Using editor config is not necessary, but saves a lot of time and keeps developers from straying from the style choice and helps to
-> avoid some formating caused problems (line ending differences, tabs vs spaces)
+> avoid some formatting caused problems (line ending differences, tabs vs spaces)
 
-- applied code style in automated way if possible (i.e using linters and code formaters)
+- applied code style in automated way if possible (i.e using linters and code formatters)
 > Use of linters will not only help to keep code cleaner but will also help finding bugs
 
 - dev environment docker images in Dockerhub (with Dockerfile)

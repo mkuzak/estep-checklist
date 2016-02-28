@@ -9,10 +9,13 @@
 > NLeSC default choice is [GitHub flow branching model](https://guides.github.com/introduction/flow/)
 > (TL;DR: use feature branches and pull requests).
 > GitHub flow is very simple and sane branching model. It supports collaboration and is based on pull requests, therefore relies
-> havyly on GitHub. Other more complicated models could be used if necessary, but we should strive for simplicity and uniformity
-> in NLeSc since that will enhance collaboration between the engineers. Learning new branching model should not be stand in a way
-> of contributions. There are other branching models that might be more suitable for particular project. You can learn more obout
-> those on [atlasian page](https://www.atlassian.com/git/tutorials/comparing-workflows)
+> havily on GitHub. [Pro Git](https://git-scm.com/doc) book describes in detail the workflow of collaboration on the project
+> with use of git branches,
+> forks and github in [Contributing to a Project chapter](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project).
+> Other more complicated models could be used if necessary, but we should strive for simplicity and uniformity
+> in NLeSc since that will enhance collaboration between the engineers. Learning new branching model should not stand in the way
+> of contributions. 
+> You can learn more obout those other models from [atlasian page](https://www.atlassian.com/git/tutorials/comparing-workflows).
 
 - public vcs repository ([github](https://github.com/))
 > Unless code cannot be open (usually commercial partners, or some competitiveness issues ) it should be in public online repository.

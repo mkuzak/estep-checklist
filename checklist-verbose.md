@@ -7,7 +7,7 @@
 
 - choose one branchig model, make the choice explicit in contribution guidelines, link to documentation on how to get started with it
 > NLeSC default choice is [GitHub flow branching model](https://guides.github.com/introduction/flow/)
-> (TL;DR: use feature branches and pull requests)
+> (TL;DR: use feature branches and pull requests).
 > GitHub flow is very simple and sane branching model. It supports collaboration and is based on pull requests, therefore relies
 > havyly on GitHub. Other more complicated models could be used if necessary, but we should strive for simplicity and uniformity
 > in NLeSc since that will enhance collaboration between the engineers. Learning new branching model should not be stand in a way

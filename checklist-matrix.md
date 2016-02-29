@@ -1,7 +1,4 @@
-Checklist for 'eStep friendly' projects.
-
-## Version control
-
+Checkmatrix for 'eStep friendly' projects.
 
 Item | From Beginning | Multiple Developers | Has a Release | External Contributors
 -----|:-------------:|:-------------------:|:-------------:|:--------:

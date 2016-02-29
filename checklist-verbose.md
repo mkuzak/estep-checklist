@@ -117,23 +117,25 @@
 
 ## Testing
 
+> Those points do not apply to prototype / throwaway phase.
+
 - [unit tests](https://en.wikipedia.org/wiki/Unit_testing)
-> Once the project leaves early prototyping / throwaway phase, unit tests should be implemented.
 
 - [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI), public on [Travis](https://travis-ci.org/)
 > CI meaning: compile, unit test, integration test, quality analysis etc.
-> Once there is some build process established and tests set up, CI should be configured too. It will save you a lot of time debugging
-> and allow for much quicker problem diagnosis.
+> Once there is some build process established and tests set up, CI should be configured too.
+> It will save you a lot of time on debugging and allow for much quicker problem diagnosis.
 
 - continuous code coverage and code quality metrics public, minimum 70% coverage required
+> It is easy to generate those automatically, once the test are setup, with use of external services.
 
 - end2end test for (web) user interfaces. [example with protractor and angular](https://angular.github.io/protractor/#/)
-> Once there are possible interactions via web interface, e2e tests should be implemented.
+> Once the web page has any interface, e2e tests should be implemented.
 
 - track dependencies (with [VersionEye](https://www.versioneye.com/),
   [David](https://david-dm.org/) or other service depending on codebase language)
-> Checking for dependency updates should be done regularly. It can save a lot of time, avoiding code dependent on deprecated
-> functionality.
+> Checking for dependency updates should be done regularly. It can save a lot of time,
+> avoiding code dependent on deprecated functionality.
 
 ## Documentation
 - `README.md` - clear explanation of the goal of the project with pointers to other documentation resources.

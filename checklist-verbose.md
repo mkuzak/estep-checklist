@@ -141,8 +141,11 @@
 - `README.md` - clear explanation of the goal of the project with pointers to other documentation resources.
 > Use [GitHub flavoured markdown](https://help.github.com/categories/writing-on-github) for, e.g.,
 > [syntax highlighting](https://help.github.com/articles/creating-and-highlighting-code-blocks).
-> Keeping basic documentation in README.md can be even useful for lead developer, to track steps and design decisions.
-> Therefore it should be present from the beginning of the project, when initialising git repository.
+> README is targeted towards developers, it is more technical than home page.
+> Keeping basic documentation in README.md can be even useful for lead developer,
+> to track steps and design decisions.
+> Therefore it is convenient to create it from the beginning of the project,
+> when initialising git repository.
 > [StackOverflow on good readme](http://stackoverflow.com/questions/2304863/how-to-write-a-good-readme),
 > [short gist with README.md template](https://gist.github.com/jxson/1784669)
 
@@ -158,21 +161,27 @@
 > [Getting started with khmer development](http://khmer.readthedocs.org/en/latest/dev/getting-started.html))
 > It should be made available once there is more than one developer working on the codebase.
 
-- contribution guidelines [example](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md)
-> Guidelines should be made available once the code is available online and there is a process for external contributions. External
-> contributions not necessary mean ‘out of NLeSC’ it could be other engineer in NLeSC. good guidelines will save time of both lead
+- contribution guidelines
+> [example](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md)
+> Guidelines should be made available once the code is available online and there is a process
+> for external contributions. External contributions not necessary mean ‘out of NLeSC’
+> it could be other engineer in NLeSC. Good guidelines will save time of both lead
 > developer and contributor since things have to be explained only once.
+> [GitHub supports CONTRIBUTING file](https://github.com/blog/1184-contributing-guidelines). 
 
 - code of conduct ([contributor covenant](http://contributor-covenant.org/))
-> CofC should be attached from the beginning of the project, it does not cost anything to add it to the project and can come handy
-> once there is one more than one person working on the project.
+> CofC should be attached from the beginning of the project. There is no gain fro having it with one
+> developer, but it does not cost anything to include it in the project and will be handy when more
+> developers join.
 
 - documented code style
-> From the beginning of the project, decision on the code style has to be made and then it should be documented. Not having documented
-> code style will highly increase the chance of inconsistent style across the codebase, even when only one developer writes code.
+> From the beginning of the project, decision on the code style has to be made
+> and then it should be documented. Not having documented code style will highly
+> increase the chance of inconsistent style across the codebase, even when only
+> one developer writes code.
 
 - meaning of issue labels used
-> Once users start submitting issues labels have to be documented.
+> Once users start submitting issues labels should be documented.
 
 - DOI or PID ([making your code citable](https://guides.github.com/activities/citable-code/))
 > Identifiers should be associated with releases and should be created together with first release.
@@ -180,11 +189,14 @@
 ## Development setup
 
 - using the NLeSC coding style is required
-> NLeSC should have sane suggestion of coding style for each programming languege in use in NLeSC. 
+> NLeSC should have sane suggestion of coding style for each programming language in use in NLeSC.
+> Coding styles are about consistency and making a choice and not so much about the superiority of
+> one style over the other. Sane set of guides can be found on in [google documentation](https://github.com/google/styleguide).
 
 - [editorconfig](http://editorconfig.org/)
-> Using editor config is not necessary, but saves a lot of time and keeps developers from straying from the style choice and helps to
-> avoid some formatting caused problems (line ending differences, tabs vs spaces)
+> Using editor config is not necessary, but saves a lot of time and keeps developers from straying
+> from the style of choice and helps to avoid some problems caused by formatting differences
+> (line ending, tabs vs spaces)
 
 - applied code style in automated way if possible (i.e using linters and code formatters)
 > Use of linters will not only help to keep code cleaner but will also help finding bugs

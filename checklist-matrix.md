@@ -5,18 +5,19 @@ This matrix shows what parts of the software sustainability checklist should be 
 ## Explanation of project states
 
 - Day One: Always.
-- Multiple Developers: As soon as someone (also within the same organization) starts helping out.
-- Users: Please are using your code.
-- Released: The software has a release
-- External Contributors: Developers outside NLeSC contribute to your.
-- Community Project: The software is actively used and contributed to by so many people that it becomes a community project rther than a NLeSC project.
+- No longer a prototype: The first step in most software development is trying out different things with no intention in keeping the intermediate results. However, eventually you get software you intend to keep.
+- Has multiple developers: As soon as someone (also within NLeSC) starts contributing to your code.
+- Has a release: The software has a release.
+- Has users: People are using your software.
+- Has external contributors: Developers outside NLeSC contribute to your software.
+- Is a community projectt: The software is actively used and contributed to by so many people that it becomes a community project rather than a NLeSC project.
 
 These states do not neccesairily happen in order.
 
 ##Version Control
 
-Item | Day one | Has multiple developers | Has users | Has a release | Has external contributors | Is a community project
------|:-------:|:-----------------------:|:---------:|:-------------:|:-------------------------:|:---------------------:|
+Item | Day One | No longer a prototype | Has multiple developers | Has a release | Has users | Has external contributors | Is a community project
+---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 use git as version control system (vcs)|X
 use [GitHub flow branching model](https://guides.github.com/introduction/flow/) (use feature branches and pull requests)|X
 public vcs repository ([github](https://github.com/))|X
@@ -25,8 +26,8 @@ meaningful commit messages|X
 
 ##Releases
 
-Item | Day one | Has multiple developers | Has users | Has a release | Has external contributors | Is a community project
------|:-------:|:-----------------------:|:---------:|:-------------:|:-------------------------:|:---------------------:|
+Item | Day One | No longer a prototype | Has multiple developers | Has a release | Has users | Has external contributors | Is a community project
+---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 [semantic versioning](http://semver.org/)|X
 tagged releases ([github releases](https://help.github.com/categories/releases/))|X
 CHANGELOG.md ([Keep a CHANGELOG](http://keepachangelog.com/))|X
@@ -38,16 +39,16 @@ notify Lode for dissemination (news item on site / annual report, etc)|X
 
 ##Licensing
 
-Item | Day one | Has multiple developers | Has users | Has a release | Has external contributors | Is a community project
------|:-------:|:-----------------------:|:---------:|:-------------:|:-------------------------:|:---------------------:|
+Item | Day One | No longer a prototype | Has multiple developers | Has a release | Has users | Has external contributors | Is a community project
+---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 [Apache 2 license](http://www.apache.org/licenses/LICENSE-2.0)|X
 compatible license of all libraries|X
 `NOTICE(.txt|.md)` listing licenses, request citation of paper if applicable|X
 
 ##Communication
 
-Item | Day one | Has multiple developers | Has users | Has a release | Has external contributors | Is a community project
------|:-------:|:-----------------------:|:---------:|:-------------:|:-------------------------:|:---------------------:|
+Item | Day One | No longer a prototype | Has multiple developers | Has a release | Has users | Has external contributors | Is a community project
+---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 home page with all the necessary introduction information, links to documenation, source code (github) and latest release download (eg. [github.io pages](https://pages.github.com/))|X
 project discussion list (github issues, mailing list, not private email) for all project related discussions from the beginning of the project|X
 for services: a demo docker image in dockerhub (with Dockerfile)|X
@@ -57,8 +58,8 @@ Few sentences about the project for [nlesc technology pages](https://www.escienc
 
 ##Testing
 
-Item | Day one | Has multiple developers | Has users | Has a release | Has external contributors | Is a community project
------|:-------:|:-----------------------:|:---------:|:-------------:|:-------------------------:|:---------------------:|
+Item | Day One | No longer a prototype | Has multiple developers | Has a release | Has users | Has external contributors | Is a community project
+---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 [unit tests](https://en.wikipedia.org/wiki/Unit_testing)|X
 build tests|X
 [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration), public on [Travis](https://travis-ci.org/)|X
@@ -68,8 +69,8 @@ track dependencies (with [VersionEye](https://www.versioneye.com/), [David](http
 
 ##Documentation
 
-Item | Day one | Has multiple developers | Has users | Has a release | Has external contributors | Is a community project
------|:-------:|:-----------------------:|:---------:|:-------------:|:-------------------------:|:---------------------:|
+Item | Day One | No longer a prototype | Has multiple developers | Has a release | Has users | Has external contributors | Is a community project
+---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 `README.md` - clear explanation of the goal of the project with pointers to other documentation resources. Use [GitHub flavored markdown](https://help.github.com/categories/writing-on-github) for, e.g., [syntax highlighting](https://help.github.com/articles/creating-and-highlighting-code-blocks).|X
 well defined functionality|X
 source code documentation|X
@@ -84,8 +85,8 @@ DOI or PID ([making your code citable](https://guides.github.com/activities/cita
 
 ## Development setup
 
-Item | Day one | Has multiple developers | Has users | Has a release | Has external contributors | Is a community project
------|:-------:|:-----------------------:|:---------:|:-------------:|:-------------------------:|:---------------------:|
+Item | Day One | No longer a prototype | Has multiple developers | Has a release | Has users | Has external contributors | Is a community project
+---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 using the NLeSC coding style is required|X
 [editorconfig](http://editorconfig.org/)|X
 applied code style in automated way if possible (i.e using linters and code formaters)|X
@@ -93,7 +94,7 @@ dev environment docker images in Dockerhub (with Dockerfile)|X
 
 ## Use standards
 
-Item | Day one | Has multiple developers | Has users | Has a release | Has external contributors | Is a community project
------|:-------:|:-----------------------:|:---------:|:-------------:|:-------------------------:|:---------------------:|
+Item | Day One | No longer a prototype | Has multiple developers | Has a release | Has users | Has external contributors | Is a community project
+---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 exchange format (Unicode, W3C, OGN, NetCDF, etc)|X
 protocols (HTTP, TCP, TLS, etc)|X

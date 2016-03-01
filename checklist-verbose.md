@@ -41,7 +41,8 @@
 > [Apache foundation](http://www.apache.org/) describes their [release policy](http://www.apache.org/dev/release.html).
 
 - CHANGELOG.md ([Keep a CHANGELOG](http://keepachangelog.com/))
-> Change log is a way to communicate notable changes in release to the users. Every release should have relevant entry in change log.
+> Change log is a way to communicate notable changes in release to the users and contributors.
+> Every release should have relevant entry in change log.
 
 - one command install ([pip](https://pypi.python.org/pypi/pip), [npm](https://www.npmjs.com/package/npm) etc)
 > This applies to software which is distributed as package or library that will be used by other software
